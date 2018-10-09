@@ -2,15 +2,16 @@
 .navbar-default {
 	background-color: #99badd;
 	text-align: center;
+	font-family: 'Unica One', cursive;
 	
 }
 .navbar-default .navbar-nav > li > a {
     color: white;
-	font-size: 15px;
-	font-weight: lighter;
+	font-size: 14px;
+	
 }
 .navbar-default .navbar-nav > li > a:hover {
-	background-color: #f58322;
+	background-color:  #f0ad4e;
 	height: 100%;
 }
 
@@ -23,6 +24,10 @@
   .affix + .container-flush {
       padding-top: 70px;
   }
+  
+ .container-fluid {
+	 font-family: 'Montserrat', sans-serif;
+ }
 .glyphicon-home {
 	font-size: auto;
 	color: white;
@@ -35,29 +40,28 @@
 }
 .btn {
 	background-color: #99badd;
-}
-.btn-sm {
-	background-color: #99badd;
-	outline-color: #99badd;
+	font-family: 'Montserrat', sans-serif;
 }
 
-.btn-sm:hover {
-	background-color: #f58322;
+
+.btn-xs:hover {
+	background-color:  #f0ad4e;
 }
 
  .popover {
-     
+     font-family: 'Montserrat', sans-serif;
   }
   /* Popover Header */
   .popover-title {
-      background-color: #f58322; 
+      background-color:  #f0ad4e; 
       color: white; 
-      text-align:center;
+      text-align:left;
   }
   /* Popover Body */
   .popover-content {
       background-color: #99badd;
       color: white;
+	  text-align: left;
   }
   /* Popover Arrow */
   .arrow {
@@ -65,7 +69,9 @@
       border-color: #99badd;
   }
 
-
-
+.footer {
+	display: block;
+	background-color: #97a7a7;
+}
 
 

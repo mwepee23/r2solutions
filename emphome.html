@@ -4,6 +4,7 @@
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Unica+One" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="custom.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -11,6 +12,7 @@
   
 </head>
 <body>
+
 <div class="container-fluid">
 	<div class="row">
 		<div class="well-sm">
@@ -31,12 +33,12 @@
 		</div>-->
 			<ul class="nav navbar-nav">
   <li><a href="#"> <span class="glyphicon glyphicon-home"></span></a></li>
-				<li><a href="emphome.html">Add Project</a></li>
-				<li><a href="emphome.html">Schedule</a></li>
-				<li><a href="emphome.html">Messages</a></li>
-				<li><a href="emphome.html">Utilization</a></li>
-				<li><a href="emphome.html">My Profile</a></li>
-				<li><a href="emphome.html">Settings</a></li>
+				<li><a href="emphome.html">ADD PROJECT</a></li>
+				<li><a href="emphome.html">SCHEDULE</a></li>
+				<li><a href="emphome.html">MESSAGES</a></li>
+				<li><a href="emphome.html">UTILIZATION</a></li>
+				<li><a href="emphome.html">MY PROFILE</a></li>
+				<li><a href="emphome.html">SETTINGS</a></li>
 			</ul>
 			<div class="pull-right container-fluid">
 				<button class="pull-right btn btn-md navbar-btn" type="button"><a href="#" data-toggle="popover" data-placement="bottom" title="Maria Christina Arriola" data-content="Role: Developer"> maria <span class="glyphicon glyphicon-log-out"></span></a></button>
@@ -65,43 +67,41 @@ $(document).ready(function(){
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-6">
+			<h5 class="text-muted"> 
+			<button type="button" class="btn btn-sm navbar-btn btn-success" style="background-color: #5cb85c;">Hours Worked</button>
+			<button type="button" class="btn btn-sm navbar-btn btn-warning" style="background-color: #f0ad4e;">  Hours Left  </button>
+			<button type="button" class="btn btn-sm navbar-btn btn-danger"  style="background-color: #d9534f;">  Hours Over</button>
+			<!--
 			<div class="container-fluid">
-				<div class ="row">
-					<div class ="col-xs-4">
-					
-					</div>
-					
-					<div class ="col-xs-4">
-						
-					</div>
-					
-					<div class ="col-xs-4">
-						
-					</div>
-				</div>
+			<div class="row">
+			<div class="col-xs-4">
+			Hours Worked<span class="glyphicon glyphicon-stop" style="color: #5cb85c;"></span>
 			</div>
+			<div class="col-xs-4">			
+			Hours Left<span class="glyphicon glyphicon-stop" style="color: #f0ad4e;"></span>
+			</div>
+			<div class="col-xs-4">
+			Hours Over<span class="glyphicon glyphicon-stop" style="color: #d9534f;"></span> 
+			</div>
+			</div>
+			</div>
+			-->
+			</h5>
 		</div>
     <div class="col-xs-6">
-	<button type="button" class=" pull-right btn btn-primary btn-sm">View</button>
+	
+	<button type="button" class=" pull-right btn btn-primary navbar-btn btn-xs">View</button>
 	<div class="dropdown">
-		<button class="pull-right btn btn-primary btn-sm dropdown-toggle" type="button" data-toggle="dropdown">Month
+		<button class="pull-right btn btn-primary navbar-btn btn-xs dropdown-toggle" type="button" data-toggle="dropdown">Month
 		<span class="caret"></span></button>
-			<ul class="pull-right dropdown-menu">
-				<li><a href="#">January</a></li>
-				<li><a href="#">February</a></li>
-				<li><a href="#">March</a></li>
-			</ul>
-	</div>
-	<div class="dropdown">
-		<button class="pull-right btn btn-primary btn-sm dropdown-toggle" type="button" data-toggle="dropdown">Year
-		<span class="caret"></span></button>
-			<ul class="pull-right dropdown-menu">
-				<li><a href="#">2016</a></li>
-				<li><a href="#">2017</a></li>
-				<li><a href="#">2018</a></li>
-			</ul>
-	</div>
 		
+	</div>
+	<div class="dropdown">
+		<button class="pull-right btn btn-primary navbar-btn btn-xs dropdown-toggle" type="button" data-toggle="dropdown">Year
+		<span class="caret"></span></button>
+			
+	</div>
+
 	</div>
 		</div>
 			</div>
@@ -146,7 +146,27 @@ $(document).ready(function(){
 
 </div>
 </div>
-
+<div class="container-fluid">
+<div class="row">
+<div class="col-xs-4"><h3 style="text-align: center;">Example Title</h3><p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+<div class="col-xs-4"><h3 style="text-align: center;">Example Title</h3><p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+<div class="col-xs-4"><h3 style="text-align: center;">Example Title</h3><p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+</div>
+</div>
+<div class="container-fluid">
+<hr/>
+	<div class="row">
+		<div class="col-xs-12">
+		
+			<footer class="pull-left text-muted"><p style="font-size: 10px;">R2 Solutions has created this web application for the use of Clango, Inc.</p></footer>
+		</div>
+	</div>
+</div>
+  
+    
+    
+  </div>
+</div>
 </div>
 
 </body>
