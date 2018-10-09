@@ -6,11 +6,23 @@
 }
 .navbar-default .navbar-nav > li > a {
     color: white;
-	font-size: 18px;
+	font-size: 15px;
 	font-weight: lighter;
 }
+.navbar-default .navbar-nav > li > a:hover {
+	background-color: #f58322;
+	height: 100%;
+}
 
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
 
+  .affix + .container-flush {
+      padding-top: 70px;
+  }
 .glyphicon-home {
 	font-size: auto;
 	color: white;
@@ -21,13 +33,15 @@
 .well {
 	background-color: white;
 }
-
 .btn {
+	background-color: #99badd;
+}
+.btn-sm {
 	background-color: #99badd;
 	outline-color: #99badd;
 }
 
-.btn:hover {
+.btn-sm:hover {
 	background-color: #f58322;
 }
 
@@ -47,7 +61,8 @@
   }
   /* Popover Arrow */
   .arrow {
-      border-right-color: #99badd;
+	  background-color: #99badd;
+      border-color: #99badd;
   }
 
 

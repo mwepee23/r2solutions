@@ -11,13 +11,13 @@
   
 </head>
 <body>
-<div class="container-flush">
+<div class="container-fluid">
 	<div class="row">
 		<div class="well-sm">
-			<div class="col-sm-6">
-				<img class="pull-left img-responsive" src="clango-med.png" alt="Clango Logo" ></div>
-			<div class="col-sm-6">
-				<img class="pull-right img-responsive" src="r2Logo.png" alt="R2 Solutions Logo" ><br /><br /><br />  
+			<div class="col-xs-6">
+			<a href="emphome.html"><img class="pull-left img-responsive" src="clango-med.png" alt="Clango Logo" ></a></div>
+			<div class="col-xs-6">
+				<a href="yeet.html"><img class="pull-right img-responsive" src="r2Logo.png" alt="R2 Solutions Logo" ></a>
 				
 			</div>
 		</div>
@@ -30,17 +30,16 @@
 			</a>
 		</div>-->
 			<ul class="nav navbar-nav">
-   <!--   <li class="active"><a href="#">Home</a></li>-->
-  <li><a> <span class="glyphicon glyphicon-home"></span></a></li>
-				<li><a href="#">Add Project</a></li>
-				<li><a href="#">Schedule</a></li>
-				<li><a href="#">Messages</a></li>
-				<li><a href="#">Utilization</a></li>
-				<li><a href="#">My Profile</a></li>
-				<li><a href="#">Settings</a></li>
+  <li><a href="#"> <span class="glyphicon glyphicon-home"></span></a></li>
+				<li><a href="emphome.html">Add Project</a></li>
+				<li><a href="emphome.html">Schedule</a></li>
+				<li><a href="emphome.html">Messages</a></li>
+				<li><a href="emphome.html">Utilization</a></li>
+				<li><a href="emphome.html">My Profile</a></li>
+				<li><a href="emphome.html">Settings</a></li>
 			</ul>
-			<div class="pull-right container-flush">
-				<button class="pull-right btn btn-lg text-center" type="button"><a href="#" data-toggle="popover" data-placement="bottom" title="Maria Christina Arriola" data-content="Role: Developer">maria<span class="glyphicon glyphicon-log-out"></span></a></button>
+			<div class="pull-right container-fluid">
+				<button class="pull-right btn btn-md navbar-btn" type="button"><a href="#" data-toggle="popover" data-placement="bottom" title="Maria Christina Arriola" data-content="Role: Developer"> maria <span class="glyphicon glyphicon-log-out"></span></a></button>
 			</div>
 
 <script>
@@ -63,13 +62,13 @@ $(document).ready(function(){
   
 </nav>
   
-<div class="container">
+<div class="container-fluid">
 	<div class="row">
-		<div class="col-sm-6">
-			<div class="container">
+		<div class="col-xs-6">
+			<div class="container-fluid">
 				<div class ="row">
 					<div class ="col-xs-4">
-
+					
 					</div>
 					
 					<div class ="col-xs-4">
@@ -82,46 +81,65 @@ $(document).ready(function(){
 				</div>
 			</div>
 		</div>
-    <div class="col-sm-6">
-		<button type="button" class=" pull-right btn primary btn-sm">Toggle</button>
+    <div class="col-xs-6">
+	<button type="button" class=" pull-right btn btn-primary btn-sm">View</button>
+	<div class="dropdown">
+		<button class="pull-right btn btn-primary btn-sm dropdown-toggle" type="button" data-toggle="dropdown">Month
+		<span class="caret"></span></button>
+			<ul class="pull-right dropdown-menu">
+				<li><a href="#">January</a></li>
+				<li><a href="#">February</a></li>
+				<li><a href="#">March</a></li>
+			</ul>
+	</div>
+	<div class="dropdown">
+		<button class="pull-right btn btn-primary btn-sm dropdown-toggle" type="button" data-toggle="dropdown">Year
+		<span class="caret"></span></button>
+			<ul class="pull-right dropdown-menu">
+				<li><a href="#">2016</a></li>
+				<li><a href="#">2017</a></li>
+				<li><a href="#">2018</a></li>
+			</ul>
+	</div>
+		
 	</div>
 		</div>
 			</div>
-<div class="container">
+<div class="container-fluid">
 <div class="row">
-<div class="col-sm-12 col-md-12 col-lg-12">
+<div class="col-xs-12">
 <h3>Employee Projects</h3> <br />
 <div class="progress"> 
     <div class="progress-bar progress-bar-success" role="progressbar" style="width:40%">
-      Hours Worked
+      
     </div>
     <div class="progress-bar progress-bar-warning" role="progressbar" style="width:10%">
-      Hours Left
+      
     </div>
     <div class="progress-bar progress-bar-danger" role="progressbar" style="width:20%">
-      Hours Over
+      
     </div>
   </div> <br />
   <div class="progress">
     <div class="progress-bar progress-bar-success" role="progressbar" style="width:30%">
-      Hours Worked
+      
     </div>
-    <div class="progress-bar progress-bar-warning" role="progressbar" style="width:10%">
-      Hours Left
+    <div class="progress-bar progress-bar-warning" role="progressbar" style="width:20%">
+     
     </div>
     <div class="progress-bar progress-bar-danger" role="progressbar" style="width:10%">
-      Hours Over
+      
     </div>
   </div> <br />
   <div class="progress">
     <div class="progress-bar progress-bar-success" role="progressbar" style="width:15%">
-      Hours Worked
+      
     </div>
     <div class="progress-bar progress-bar-warning" role="progressbar" style="width:30%">
-      Hours Left
+      
     </div>
-    <div class="progress-bar progress-bar-danger" role="progressbar" style="width:0%">
-      Hours Over
+    <div class="progress-bar progress-bar-danger" role="progressbar" style="width:10%">
+      
     </div>
   </div>
 </div>
