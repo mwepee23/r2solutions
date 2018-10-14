@@ -1,0 +1,149 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Create Project</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="custom.css">
+
+</head>
+
+<body>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Unica+One" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="custom.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+  
+</head>
+<body>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="well-sm">
+			<div class="col-xs-6">
+			<a href="emphome.html"><img class="pull-left img-responsive" src="clango-med.png" alt="Clango Logo" ></a></div>
+			<div class="col-xs-6">
+				<a href="yeet.html"><img class="pull-right img-responsive" src="r2Logo.png" alt="R2 Solutions Logo" ></a>
+				
+			</div>
+		</div>
+	</div>
+</div>
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<!--<div class="navbar-header">
+			<a href="#">
+			</a>
+		</div>-->
+			<ul class="nav navbar-nav">
+  <li><a href="#"> <span class="glyphicon glyphicon-home"></span></a></li>
+				<li><a href="emphome.html">ADD PROJECT</a></li>
+				<li><a href="emphome.html">SCHEDULE</a></li>
+				<li><a href="emphome.html">MESSAGES</a></li>
+				<li><a href="emphome.html">UTILIZATION</a></li>
+				<li><a href="emphome.html">MY PROFILE</a></li>
+				<li><a href="emphome.html">SETTINGS</a></li>
+			</ul>
+			<div class="pull-right container-fluid">
+				<button class="pull-right btn btn-md navbar-btn" type="button"><a href="#" data-toggle="popover" data-placement="bottom" title="Maria Christina Arriola" data-content="Role: Developer"> maria <span class="glyphicon glyphicon-log-out"></span></a></button>
+			</div>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+</script>
+			<!--<div class="dropdown">
+					<button class="pull-right btn btn-lg" type="button">maria
+						<span class="glyphicon glyphicon-log-out"></span>
+				</div>-->
+				
+  </div>
+  
+</nav>
+
+<div class="container">
+<div class="row">
+<div class="col-xs-2"></div>
+<div class="col-xs-8">
+<h2 style="font-family:'Montserrat', sans-serif; font-weight:lighter; text-align:justify;">Create Project</h2><hr/>
+
+</div>
+<div class="col-xs-2"></div>
+</div>
+</div> 
+<div class="container">
+<div class="row">
+
+<div class="col-xs-2"></div>
+<div class="col-xs-8">
+<form action="http://r2solutions.com/create" method="POST">
+  <div class="form-group">
+    <label for="proj_name">Project Name:</label>
+    <input type="text" class="form-control" id="proj_name">
+  </div>
+  <div class="form-group">
+    <label for="charge_code">Charge Code:</label>
+    <input type="text" class="form-control" id="charge_code">
+  </div>
+  <div class="form-group">
+    <label for="client">Client:</label>
+    <input type="text" class="form-control" id="client">
+  </div>
+  <div class="form-group">
+  <label for="managers">Select Manager(s):</label>
+  <select class="form-control" id="managers">
+    <option>Create script to pull all MGRs from db</option>
+    <option>-</option>
+    <option>-</option>
+    <option>-</option>
+  </select>
+</div>
+<div class="col-xs-6">
+  <div class="form-group">
+    <label for="start_date">Start Date:</label>
+    <input type="date" class="form-control" id="start_date">
+    
+  </div></div>
+  
+  <div class="col-xs-6">
+  <div class="form-group">
+    <label for="end_date">End Date:</label>
+    <input type="date" class="form-control" id="end_date">
+  </div></div>
+  <div class="form-group">
+    <label for="budget">Project Budget ($):</label>
+    <input type="number" class="form-control" id="budget">
+  </div>
+  <button type="submit" class="btn btn-primary">Create Project</button>
+</form>
+  <script src="js/scripts.js"></script>
+  </div>
+  <div class="col-xs-2"></div>
+  </div>
+  
+  </div>
+  <footer class="pull-left text-muted"><p style="font-size: 10px;">R2 Solutions has created this web application for the use of Clango, Inc.</p></footer>
+		
+		
+</body>
+</html>
